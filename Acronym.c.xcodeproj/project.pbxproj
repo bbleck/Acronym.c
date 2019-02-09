@@ -6,10 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		D38A9DAB220F9058007A87FE /* acronym.c in Sources */ = {isa = PBXBuildFile; fileRef = D38A9DA9220F9058007A87FE /* acronym.c */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		D38A9D9D220F9031007A87FE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -24,8 +20,8 @@
 
 /* Begin PBXFileReference section */
 		D38A9D9F220F9031007A87FE /* Acronym.c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Acronym.c; sourceTree = BUILT_PRODUCTS_DIR; };
-		D38A9DA9220F9058007A87FE /* acronym.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = acronym.c; path = ../../../../../../Exercism/c/acronym/src/acronym.c; sourceTree = "<group>"; };
-		D38A9DAA220F9058007A87FE /* acronym.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = acronym.h; path = ../../../../../../Exercism/c/acronym/src/acronym.h; sourceTree = "<group>"; };
+		D38A9DAC220F92FD007A87FE /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = SOURCE_ROOT; };
+		D38A9DAD220F92FD007A87FE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +54,8 @@
 		D38A9DA1220F9031007A87FE /* Acronym.c */ = {
 			isa = PBXGroup;
 			children = (
-				D38A9DA9220F9058007A87FE /* acronym.c */,
-				D38A9DAA220F9058007A87FE /* acronym.h */,
+				D38A9DAC220F92FD007A87FE /* main.h */,
+				D38A9DAD220F92FD007A87FE /* main.c */,
 			);
 			path = Acronym.c;
 			sourceTree = "<group>";
@@ -120,7 +116,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D38A9DAB220F9058007A87FE /* acronym.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
